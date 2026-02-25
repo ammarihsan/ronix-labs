@@ -24,7 +24,7 @@ const ServiceTwo = () => {
             <div className="service-page-cta py-150">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-3"><img src="/assets/img/pages/servicePagelogo1_2.png" alt="logo" className="mb-4" /></div>
+                        <div className="col-lg-3"><img src="/assets/img/logo/official-logo.png" alt="logo" className="mb-4" style={{ height: '40px', width: 'auto' }} /></div>
                         <div className="col-lg-9">
                             <h4 className="text-muted fw-normal">We provide creative and professional design solutions that help brands stand out and connect with their audience. From concept to final delivery, every project is crafted with attention to detail and innovation.</h4>
                         </div>

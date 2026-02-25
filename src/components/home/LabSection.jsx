@@ -46,11 +46,15 @@ const LabSection = () => {
                 </div>
             </div>
             <style jsx>{`
+                .lab-section {
+                    background-color: #F8F9FA;
+                    position: relative;
+                }
                 .glassmorphism-card {
-                    background: rgba(255, 255, 255, 0.03);
+                    background: rgba(0, 0, 0, 0.03);
                     backdrop-filter: blur(10px);
                     -webkit-backdrop-filter: blur(10px);
-                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    border: 1px solid rgba(0, 0, 0, 0.08);
                     border-radius: 20px;
                     padding: 40px;
                     height: 100%;
@@ -60,31 +64,34 @@ const LabSection = () => {
                 }
                 .glassmorphism-card:hover {
                     transform: translateY(-10px);
-                    background: rgba(255, 255, 255, 0.07);
-                    border-color: #00D8FF; /* Neon Accent */
-                    box-shadow: 0 20px 40px rgba(0, 216, 255, 0.1);
+                    background: rgba(0, 0, 0, 0.06);
+                    border-color: #00D8FF;
+                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
                 }
                 .lab-card .icon {
                     font-size: 40px;
                 }
                 .lab-card .title {
-                    color: #fff;
+                    color: #1C1C1C;
                     font-size: 24px;
                 }
                 .lab-card .text {
-                    color: rgba(255, 255, 255, 0.6);
+                    color: #4A4A4A;
                     font-size: 16px;
                 }
                 .lab-section .sub-title {
-                    color: #00D8FF;
+                    color: #00768B;
                     text-transform: uppercase;
                     letter-spacing: 2px;
                     font-weight: 600;
                     margin-bottom: 20px;
                     display: block;
                 }
+                .lab-section .title {
+                    color: #1C1C1C !important;
+                }
             `}</style>
-        </section>
+        </section >
     );
 };
 

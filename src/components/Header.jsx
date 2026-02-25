@@ -10,8 +10,7 @@ const Header = () => {
                         <div className="header-main">
                             <div className="logo d-flex align-items-center">
                                 <Link to="/" className="header-logo-2">
-                                    <img src="/assets/img/logo/black-logo.svg" alt="logo-img" style={{ display: 'none' }} />
-                                    <span style={{ fontSize: '24px', fontWeight: 'bold', color: 'inherit' }}>Ronix Labs</span>
+                                    <img className="navbar-logo" src="/assets/img/logo/official-logo.png" alt="Ronix Labs" style={{ height: '40px', width: 'auto' }} />
                                 </Link>
                             </div>
 

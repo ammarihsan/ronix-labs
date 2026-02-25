@@ -8,7 +8,7 @@ const CTASection = () => {
             <div className="cta-wrapper pb-150">
                 <div className="cta-content">
                     <div className="bg-shape float-bob-x">
-                        <img src="/assets/img/home-3/cta/ctaLogo.png" alt="shape" />
+                        <img src="/assets/img/logo/official-logo.png" alt="shape" style={{ height: '60px', width: 'auto' }} />
                     </div>
                     <div className="container">
                         <div className="cta-content-wrap">

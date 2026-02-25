@@ -59,7 +59,7 @@ const AboutSection = () => {
                     </div>
                 </div>
                 <div className="thumb scroll-thumb img-container-2 fix">
-                    <img className="scroll-img" src="/assets/img/home-3/about/aboutIThumb1_3.jpg" alt="thumb" />
+                    <img className="scroll-img" src="/assets/img/home-3/about/team-group.jpg" alt="team group" />
                 </div>
             </div>
         </section>

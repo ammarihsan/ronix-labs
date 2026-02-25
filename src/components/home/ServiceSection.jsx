@@ -3,11 +3,11 @@ import ServiceCard from '../cards/ServiceCard';
 
 const ServiceSection = () => {
     const services = [
-        { id: '01', title: 'Automation', desc: 'Intelligent Workflows', img: '/assets/img/home-3/service/thumb1_1.png' },
-        { id: '02', title: 'SaaS Build', desc: 'Custom AI SaaS Products', img: '/assets/img/home-3/service/thumb1_2.png' },
-        { id: '03', title: 'Workflows', desc: 'Business Process Automation', img: '/assets/img/home-3/service/thumb1_1.png' },
-        { id: '04', title: 'Platform', desc: 'SaaS Architecture & Design', img: '/assets/img/home-3/service/thumb1_2.png' },
-        { id: '05', title: 'AI Tools', desc: 'Tailored AI Assistant Tools', img: '/assets/img/home-3/service/thumb1_2.png' }
+        { id: '01', title: 'AI Automation', desc: 'Intelligent Workflows', img: '/assets/img/home-3/service/ai-automation.png' },
+        { id: '02', title: 'Software Development', desc: 'Custom SaaS & Product Build', img: '/assets/img/home-3/service/software-dev.png' },
+        { id: '03', title: 'UI UX Design', desc: 'Architecture & User Experience', img: '/assets/img/home-3/service/ui-ux-design.png' },
+        { id: '04', title: 'Mobile App Development', desc: 'iOS & Android Solutions', img: '/assets/img/home-3/service/mobile-app-dev.png' },
+        { id: '05', title: 'CMS Development', desc: 'Scalable Content Systems', img: '/assets/img/home-3/service/cms-dev.png' }
     ];
 
     return (
